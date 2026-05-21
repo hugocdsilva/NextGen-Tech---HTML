@@ -4,60 +4,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Receita do dia</title>
+    <title>Receitas do dia</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-   <header>
-    <h1>Receitas do dia</h1>
-    <h5>19/05/2026</h5>
+    <header>
+        <h1 class="margem_inferior centralizado">Receitas do dia</h1>
+        <h5 class="margem_superior italico">Data: 19/05/2026</h5>
 
-    <nav>
+        <nav>
+            <ul class="lista_vertical retirar_ponto_inicial">
+
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Café da Manhã</a></li>
+                <li><a href="#">Almoço</a></li>
+                <li><a href="#">Jantar</a></li>
+                <li><a href="#">Sobremesas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2 class="centralizado">Salada de Frutas (sobremesas)</h2>
+        <img class="img_center" src="salada-frutas.jpg" alt="Salada de Frutas" width="300">
+        <p>Ingredientes:</p>
         <ul>
-            <li><a href="#">Início</a></li>
-            <li><a href="#">Café da Manhã</a></li>
-            <li><a href="#">Almoço</a></li>
-            <li><a href="#">Jantar</a></li>
-            <li><a href="#">Sobremesas</a></li>
+            <li>1 maçã</li>
+            <li>1 banana</li>
+            <li>1 laranja</li>
+            <li>1 xícara de uvas</li>
+            <li>Suco de 1 limão</li>
         </ul>
-    </nav>
-    </header> 
-
-   <main>   
-    <h2>Salada de Frutas (sobremesas)</h2>
-    <img src="salada-frutas.jpg" alt="Salada de Frutas" width="300">
-    <p>Ingredientes:</p>
-    <ul>
-        <li>1 maçã</li>
-        <li>1 banana</li>
-        <li>1 laranja</li>
-        <li>1 xícara de uvas</li>
-        <li>Suco de 1 limão</li>
-    </ul>
-    <p>Modo de preparo:</p>
-    <ol>
-        <li>Lave e corte as frutas em pedaços pequenos.</li>
-        <li>Coloque as frutas em uma tigela grande.</li>
-        <li>Adicione o suco de limão e misture bem.</li>
-        <li>Refrigere por 30 minutos antes de servir.</li>
-    </ol> 
+        <p>Modo de preparo:</p>
+        <ol>
+            <li>Lave e corte as frutas em pedaços pequenos.</li>
+            <li>Coloque as frutas em uma tigela grande.</li>
+            <li>Adicione o suco de limão e misture bem.</li>
+            <li>Refrigere por 30 minutos antes de servir.</li>
+        </ol>
 
     </main>
 
-<aside>
-    <h3>Dicas de Culinária</h3>
-    <ul>
-        <li>Use ingredientes frescos para um sabor melhor.</li>
-        <li>Experimente novas especiarias para dar um toque especial aos pratos.</li>
-        <li>Não tenha medo de errar, a cozinha é um lugar de experimentação!</li>
-    </ul>
-</aside>
+    <aside>
+        <h3 class="margem_inferior centralizado">Dicas de Culinária</h3>
+        <ul class="margem_superior centralizado retirar_ponto_inicial">
+            <li>Use ingredientes frescos para um sabor melhor.</li>
+            <li>Experimente novas especiarias para dar um toque especial aos pratos.</li>
+            <li>Não tenha medo de errar, a cozinha é um lugar de experimentação!</li>
+        </ul>
+    </aside>
 
-<flooter> 
-    <h2>"Cozinhar é amar sem palavras"</h2>
-     <p>© 2024 Receitas do Dia. Todos os direitos reservados.</p>
+    <flooter>
+        <h2 class="margem_inferior centralizado">"Cozinhar é amar sem palavras"</h2>
+        <p class="margem_superior italico">© 2024 Receitas do Dia. Todos os direitos reservados.</p>
 
-</flooter>
+    </flooter>
 
 </body>
+
 </html>

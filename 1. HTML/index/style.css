@@ -1,0 +1,57 @@
+/* Estilo para estruturas*/
+aside {
+    border: 1px solid #8e0909;
+    background-color: oklch(92.4% 0.12 95.746);
+    border-radius: 10px;
+    margin: 0 20%;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(oklch(96.2% 0.059 95.617), oklch(98.7% 0.022 95.277));
+}
+
+h1 {
+    font-size: 30px;
+}
+
+li {
+    margin-right: 60px;
+    color: #8e0909;
+}
+
+
+/* Estilo para estruturas em class*/
+.centralizado {
+    text-align: center;
+}
+
+.img_center {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.italico {
+    font-style: italic;
+    color: #606060
+}
+
+.lista_vertical {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+}
+
+.margem_inferior {
+    margin-bottom: 0;
+}
+
+.margem_superior {
+    margin-top: 0;
+}
+
+.retirar_ponto_inicial {
+    list-style: none;
+}
