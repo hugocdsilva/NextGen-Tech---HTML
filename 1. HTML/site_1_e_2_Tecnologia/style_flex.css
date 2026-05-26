@@ -1,0 +1,213 @@
+header {
+  background-color: rgb(8, 8, 239);
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10fr;
+}
+
+@media (max-width: 768px) {
+  .responsive {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+}
+
+header nav img {
+  display: flex;
+  justify-content: flex-start;
+  width: 100px;
+  height: auto;
+  flex-direction: column;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  color: white;
+  flex-wrap: wrap;
+  gap: 30px;
+  list-style: none;
+  font-size: 120%;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+
+  /* Adiciona um pouco de espaçamento e um efeito de transição suave */
+  display: inline-block;
+  min-width: 80px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.scale-padding a:hover {
+  padding: 14px 28px;
+}
+
+/* Efeito de hover para para mudar cor quando passa mouse*/
+header nav ul li a:hover {
+  color: yellow;
+  transform: scale(1.15);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #d5f4fc;
+  text-align: justify;
+}
+
+body nav main article {
+  padding: 20px;
+}
+
+body nav main article h1 {
+  display: flex;
+  justify-content: start;
+}
+
+body nav main article div {
+  background-color: #f9f9f9;
+  border-radius: 1%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  /* LOGO EM CIMA, MENU EMBAIXO */
+  body nav main article div {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+}
+
+body nav main article div:hover {
+  background-color: rgb(221, 221, 138);
+}
+
+body nav main article img {
+  width: 400px;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 5%;
+}
+
+body nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  justify-content: center;
+  display: flex;
+}
+
+body nav aside h1 {
+  display: flex;
+  justify-content: center;
+}
+
+body nav aside nav {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 20%;
+}
+
+body nav aside nav nav {
+  display: flex;
+  align-items: center;
+}
+
+body nav aside nav img {
+  width: 400px;
+  height: auto;
+}
+
+.form_vertical {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: justify;
+}
+
+.form_horizontal {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  text-align: justify;
+}
+
+.fixar {
+  /*fixar o header no topo da página*/
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+h3 {
+  margin-bottom: 0;
+}
+
+p {
+  margin-top: 0;
+}
+
+article {
+  padding: 7px 20px;
+}
+
+@media (max-width: 480px) {
+  .mobile {
+    font-size: 0.875rem;
+  }
+}
+
+footer {
+  display: flex;
+  background-color: yellow;
+  font-style: italic;
+  color: #606060;
+  padding: 7px;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.botao-pesquisar{
+  display: inline-block;
+  background-color: rgb(221, 221, 138);
+  padding: 5px 20px;
+  border-radius: 8px;
+  gap: 30px;
+  border: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);;
+  text-align: center;
+  transition: all 0.3s;
+  font-size: 0,7rem;
+  cursor: pointer;
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+}

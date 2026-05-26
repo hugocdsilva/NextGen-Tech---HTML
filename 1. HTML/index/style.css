@@ -4,12 +4,31 @@ aside {
     background-color: oklch(92.4% 0.12 95.746);
     border-radius: 10px;
     margin: 0 20%;
-
+    list-style: none;
 }
 
 body {
     font-family: Arial, sans-serif;
     background: linear-gradient(oklch(96.2% 0.059 95.617), oklch(98.7% 0.022 95.277));
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: oklch(92.4% 0.12 95.746);
+    width: 50%;
+    border: none;
+    border: 1px solid #8e0909;
+
+    
+
+}
+header img{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 30px;
+    align-items: start;
+    padding: 0px;
 }
 
 h1 {
@@ -17,8 +36,15 @@ h1 {
 }
 
 li {
-    margin-right: 60px;
+    margin-right: 40px;
     color: #8e0909;
+}
+
+header img {
+    display: flex;
+    justify-content: flex-start;
+    width:55%;
+    margin-bottom: 0;
 }
 
 
@@ -41,7 +67,18 @@ li {
 .lista_vertical {
     display: flex;
     padding: 0;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-bottom: 0;
+    margin-top: 4%
+    
+}
+
+header nav ul li a {
+color: rgb(13, 12, 12);
+text-decoration: none;
+font-weight: bold;
+transition: all 0.3s;
 }
 
 .margem_inferior {
