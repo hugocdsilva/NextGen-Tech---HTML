@@ -1,0 +1,66 @@
+//1.
+let linguagem = ["JavaScript", "Python", "Java", "C++"];
+
+console.log(`O primeiro elemento da lista é ${linguagem[0]}`);
+console.log(`O último elemento da lista é ${linguagem[linguagem.length - 1]}`);
+
+//2.
+let fila = ["Ana", "Beto"];
+
+fila.push("Marcos");
+fila.shift(fila[0]);
+
+console.log(fila);
+
+//3.
+let letras = ["A", "B", "C", "D", "E"];
+
+console.log("Com Slice:");
+console.log(letras.slice(1, 3));
+
+console.log("Sem Slice:");
+console.log(letras);
+
+//4.
+const data = ["15", "08", "2026"];
+
+console.log(`A data é ${data.join("/")}.`);
+
+//5..
+for (let i = 0; i <= 5; i++) {
+  console.log(`Iteração número: ${i}`);
+}
+
+//6.
+let tecnologias = ["HTML", "CSS", "JavaScript"];
+
+for (let tech of tecnologias) {
+  console.log(tech);
+}
+
+//7.
+let tentativas = 3;
+
+while (tentativas >= 0) {
+  console.log(`Tentativa restante: ${tentativas}`);
+  tentativas--;
+}
+
+//8.
+let notas = [7.5, 8.0, 9.5];
+
+notas.forEach((nota, indice) => {
+  console.log(`${indice}: ${nota}`);
+});
+
+//9.
+let numInt = [10, 20, 30];
+
+console.log(numInt.map((nunInteiros) => nunInteiros * 2));
+
+//10.
+let idades = [15, 22, 17, 30, 14, 18];
+
+console.log(
+  `Idades maiores de 18 anos: ${idades.filter((idade) => idade < 18)}`
+);
